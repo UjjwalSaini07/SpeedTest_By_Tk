@@ -73,7 +73,7 @@ create_button_4 = Button(framehome, text = "Ping Speed", command = ping,fg="whit
 create_button_4.grid(row=2,column=1)
 
 root.mainloop()
-
+print("Thank You !!")
 """
 down(st)
 up(st)
