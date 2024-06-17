@@ -33,6 +33,7 @@ def speed_test():
     messagebox.askokcancel("SpeedTest",f"Download Speed {sp_down[:2]} mbps\nUpload Speed {sp_up[:2]} mbps")
 
 def ping():
+    
     def Speed_test():
         t = pyspeedtest.SpeedTest(e1.get())
         myping.set(t.ping())
@@ -74,7 +75,9 @@ create_button_4.grid(row=2,column=1)
 
 root.mainloop()
 
+
 """
 down(st)
 up(st)
+this works when it looking padding synthesis on it
 """
